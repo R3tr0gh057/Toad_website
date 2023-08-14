@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  color: #777;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin-right: 10px;
+}
+.social-icons{
+  width: 40px;
+  margin: 1em;
+}
+.page-title{
+  font-size: 50px;
+}
+.introduction{
+  margin: 1em;
+}
+.works-section{
+  margin: 1em;
+}
+.product-image{
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 50px;
+}
+.main-header{
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url("/Toad/images/header-background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.header-title{
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+}
+.navigation ul{
+  margin: 0;
+}
+.navigation li{
+  display: inline; 
+}
+.navigation a{
+  padding: .8em;
+  text-decoration: none;
+  display: inline-block;
+}
+.navigation a:hover{
+  background-color: white;
+}
+.main-navigation{
+  text-align: center;
+  border-bottom: 1px solid #777;
+}
+.showcase-images{
+  width: 33%;
+}
+.showcase-images:hover{
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #777
+}
+.product-images{
+  width: 24.8%;
+}
+.product-images:hover{
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #777
+}
+.artwork-section{
+  margin: 1em;
+}
+.product img {
+  width: 100%;
+  height: auto;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #555;
+}
+.product {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
