@@ -50,6 +50,7 @@ a {
   padding: .8em;
   text-decoration: none;
   display: inline-block;
+  transition: 400ms;
 }
 .navigation a:hover{
   background-color: white;
@@ -60,11 +61,10 @@ a {
 }
 .showcase-images{
   width: 33%;
+  transition: 250ms;
 }
 .showcase-images:hover{
-  padding: 5px;
-  border-radius: 50px;
-  background-color: #777
+  transform: scale(1.1);
 }
 .product-images{
   width: 24.8%;
